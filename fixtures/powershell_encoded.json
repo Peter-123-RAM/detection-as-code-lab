@@ -1,0 +1,4 @@
+{
+"process":"powershell.exe",
+"command":"-EncodedCommand SQBmACgA"
+}
