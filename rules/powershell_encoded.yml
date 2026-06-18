@@ -1,0 +1,8 @@
+name: Encoded PowerShell Detection
+
+description: Detect suspicious PowerShell encoded commands
+
+logic:
+  process: powershell.exe
+  contains:
+    - EncodedCommand
