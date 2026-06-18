@@ -1,0 +1,8 @@
+name: Suspicious Admin Creation
+
+description: Detect unexpected privileged account creation
+
+logic:
+  event:
+    - user_created
+    - added_to_admin_group
