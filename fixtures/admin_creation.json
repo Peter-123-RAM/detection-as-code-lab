@@ -1,0 +1,5 @@
+{
+"event":"user_created",
+"user":"attacker",
+"group":"Administrators"
+}
