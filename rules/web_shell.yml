@@ -1,0 +1,9 @@
+name: Web Shell Detection
+
+description: Detect suspicious web shell access
+
+logic:
+  path:
+    - cmd.php
+    - shell.php
+    - upload.php
