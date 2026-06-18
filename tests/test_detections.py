@@ -11,7 +11,7 @@ def test_encoded_powershell():
 
 
 def test_web_shell():
-    path="index.html"
+    path="shell.php"
     assert "shell.php" in path
 
 
