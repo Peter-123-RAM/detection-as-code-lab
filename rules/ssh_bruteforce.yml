@@ -1,0 +1,8 @@
+name: SSH Brute Force Detection
+
+description: Detect multiple failed SSH logins
+
+logic:
+  event: ssh_failed_login
+  threshold: 5
+  timeframe: 60s
